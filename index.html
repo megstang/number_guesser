@@ -5,13 +5,12 @@
 </head>
 <body>
   <h1 align = "center">Number Guesser</h1>
-  <form id="myForm" action="/action_page.php">
-    <input type="integer" name="number" value="Enter Your Guess"><br>
-    <input type="submit" value="Guess">
-    <input type="button" onclick="clearGuess()" value="Clear">
-  </form>
-  <input type = "button" onclick = "resetGuess()" value = "Reset">
-
+  <input id= "guesst" type = "text" value = "Enter Your Guess">
+  <p id = "guessp"></p>
+  <input id= "guessb" type = "button" value = "Guess" onclick = "guessf()">
+  <input id= "clear-guess" type = "reset" value = "Clear" onclick = "clearGuess()">
+  <br>
+  <button name="reset" id="reset-button">Reset</button>
 </body>
 
 <script>
