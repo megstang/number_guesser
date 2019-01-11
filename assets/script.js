@@ -14,5 +14,17 @@ function randomNumber(min, max) {
 }
 
 function checkGuess() {
+  if(document.getElementById('guessb').value == "Guess"){
+    var current_guess = document.getElementById('guesst').value;
+    if(random_number>current_guess){
+      document.getElementById('guessp').innerHTML = "That is too low!"
+    }
+    else if(random_number<current_guess){
+      document.getElementById('guessp').innerHTML = "That is too high!"
+    }
+    else {
+      document.getElementById('guessp').innerHTML = "BOOM!"
+    }
+  }
 
 }
