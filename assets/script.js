@@ -27,10 +27,10 @@ function checkGuess() {
     alert( "Please enter a number between " + min + " and " + max)
   }
   else if(random_number>current_guess){
-    feedback(current_guess, "This is too low!")
+    feedback(current_guess, "That is too low")
   }
   else if(random_number<current_guess){
-    feedback(current_guess, "This is too high!")
+    feedback(current_guess, "That is too high")
   }
   else if( random_number == current_guess ){
     feedback(current_guess, "BOOM!")
@@ -43,9 +43,13 @@ function checkGuess() {
 function feedback(current_guess, feedback) {
   if(current_guess == "clearfeedback" && feedback == ""){
     document.getElementById('guessp').innerHTML = feedback;
+    document.getElementById('current-guess').innerHTML = feedback;
+    document.getElementById('feedback').innerHTML = feedback;
   }
   else {
-    document.getElementById('guessp').innerHTML = "Your last guess was " +  current_guess + ' ' + feedback;
+    document.getElementById('guessp').innerHTML = "Your last guess was";
+    document.getElementById('current-guess').innerHTML =   current_guess;
+    document.getElementById('feedback').innerHTML = feedback;
   }
 }
 

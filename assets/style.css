@@ -23,3 +23,37 @@ h1 g {
   text-align: center;
   font-size: 25px;
 }
+
+#guessb {
+  text-align: center;
+  font-size: 25px;
+  float: center;
+}
+
+#clear-guess {
+  text-align: center;
+  font-size: 25px;
+  float: center;
+}
+
+#reset-button {
+  text-align: center;
+  font-size: 25px;
+  float: center;
+}
+
+.items-center {
+  text-align: center;
+}
+
+.feedback {
+  text-align: center;
+  color: #404041;
+  font-size: 50px;
+}
+
+.feedback #current-guess {
+  color: #EB008B;
+  font-size: 100px;
+  margin: auto;
+}

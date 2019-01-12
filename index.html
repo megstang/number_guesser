@@ -8,12 +8,18 @@
   <header><h1>Number <g>Guesser</g></h1></header>
   <br style = "line-height:10;">
   <div class = "guess">
-    <input id= "guesst" type = "text" value = "Enter Your Guess">
-    <p id = "guessp"></p>
-    <button id= "guessb" type = "button" onclick = "checkGuess()">Guess</button>
-    <button id= "clear-guess" type = "button" onclick = "clearGuess()">Clear</button>
-    <br>
-    <button type= "button" id="reset-button" onclick= "resetGuess()" disabled>Reset</button>
+    <div class = "items-center">
+    <input id = "guesst" type = "text" value = "Enter Your Guess">
+    <br><br><br>
+      <button id = "guessb" type = "button" onclick = "checkGuess()">Guess</button>
+      <button id = "clear-guess" type = "button" onclick = "clearGuess()">Clear</button>
+    <div class = "feedback">
+      <p id = "guessp"></p>
+      <p id = "current-guess"></p>
+      <p id = "feedback"></p>
+    </div>
+    <button type= "button" id ="reset-button" onclick= "resetGuess()" disabled>Reset</button>
+  </div>
   </div>
 </body>
 
