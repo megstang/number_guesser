@@ -6,7 +6,7 @@ function clearGuess() {
 }
 
 function resetGuess() {
-
+  random_number = randomNumber(1,100);
 }
 
 function randomNumber(min, max) {
