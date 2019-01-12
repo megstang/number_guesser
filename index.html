@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Number Guesser</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Number Guesser</title>
 </head>
 <body>
-  <h1 align = "center">Number Guesser</h1>
-  <input id= "guesst" type = "text" value = "Enter Your Guess">
-  <p id = "guessp"></p>
-  <input id= "guessb" type = "button" value = "Guess" onclick = "checkGuess()">
-  <input id= "clear-guess" type = "reset" value = "Clear" onclick = "clearGuess()">
-  <br>
-  <button name="reset" id="reset-button" onclick= "resetGuess()" disabled>Reset</button>
+  <header><h1>Number <g>Guesser</g></h1></header>
+  <br style = "line-height:10;">
+  <div class = "guess">
+    <input id= "guesst" type = "text" value = "Enter Your Guess">
+    <p id = "guessp"></p>
+    <button id= "guessb" type = "button" onclick = "checkGuess()">Guess</button>
+    <button id= "clear-guess" type = "button" onclick = "clearGuess()">Clear</button>
+    <br>
+    <button type= "button" id="reset-button" onclick= "resetGuess()" disabled>Reset</button>
+  </div>
 </body>
 
 <script src = "assets/script.js" type= "application/javascript">

@@ -1,0 +1,25 @@
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #ED458B;
+  background-color: #404041;
+  position: fixed;
+}
+
+h1 g {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+#guesst {
+  text-align: center;
+  font-size: 25px;
+}
