@@ -7,9 +7,15 @@
 <body>
   <header><h1>Number <g>Guesser</g></h1></header>
   <br style = "line-height:10;">
+  <div class = "range">
+    <input id = "min" type = "text" placeholder = "min">
+    <input id = "max" type = "text" placeholder = "max">
+    <button class = "button" id = "range-button" onclick = "setMaxAndMin()">Set Range</button>
+  </div>
+  <br><br><br>
   <div class = "guess">
     <div class = "items-center">
-    <input id = "guesst" type = "text" value = "Enter Your Guess">
+    <input id = "guesst" type = "text" placeholder = "Enter Your Guess">
     <br><br><br>
       <button id = "guessb" class = "button" onclick = "checkGuess()">Guess</button>
       <button id = "clear-guess" class = "button" onclick = "clearGuess()">Clear</button>

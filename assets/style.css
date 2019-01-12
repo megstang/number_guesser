@@ -21,7 +21,7 @@ h1 g {
 
 #guesst {
   text-align: center;
-  font-size: 25px;
+  font-size: 50px;
 }
 
 #guessb {
@@ -71,4 +71,8 @@ h1 g {
   color: #EB008B;
   font-size: 100px;
   margin: auto;
+}
+
+.range {
+  text-align: center;
 }
