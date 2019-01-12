@@ -53,7 +53,7 @@ h1 g {
   background-color: #D0D2D3;
 }
 
-.button:hover {
+.button:enabled:hover {
   background-color: #EB008B;
 }
 
