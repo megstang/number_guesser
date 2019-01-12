@@ -27,7 +27,6 @@ function checkGuess() {
       feedback(current_guess, "BOOM!")
     }
   }
-
 }
 
 function feedback(current_guess, feedback) {
